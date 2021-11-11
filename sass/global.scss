@@ -1,0 +1,100 @@
+html {
+        font-size: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        scroll-padding-top: 9rem;
+        scroll-behavior: smooth;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+        line-height: 1.3;
+        font-family: 'Mohave';
+
+        scroll-behavior: smooth;
+}
+
+ul {
+        list-style: none;
+}
+
+a {
+        text-decoration: none;
+}
+
+p {
+        font-weight: 400;
+        font-size: 15px;
+}
+
+h5 {
+        color: var(--secondarydeepp);
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 0;
+}
+
+h1 {
+        font-size: 40px;
+        font-weight: bolder;
+        color: var(--primary);
+}
+
+h2 {
+        font-size: 36px;
+}
+
+
+
+h3 {
+        font-size: 20px;
+}
+
+
+
+.flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.flex_sa {
+        display: flex;
+        justify-content: space-around !important;
+        text-align: center;
+        width: 100%;
+}
+
+
+
+.main__content {
+        max-width: 1200px;
+        margin: auto;
+}
+
+.text__center {
+        text-align: center;
+}
+
+button {
+        padding: 4px 19px;
+        //  background-color: white;
+        background: none;
+        border: 4px solid #2B8FE5;
+        font-size: 18px;
+        font-family: 'Mohave';
+        text-transform: uppercase;
+        color: var(--primary);
+        font-weight: 800;
+}
+
+.dark {
+        padding: 4px 19px;
+        background: none;
+        border: 4px solid #2B8FE5;
+        font-size: 19px;
+        font-family: 'Mohave';
+        text-transform: uppercase;
+        color: var(--secondary);
+}
